@@ -132,4 +132,27 @@ input[type="submit"] {
   width: 50%;
   cursor: pointer;
 }
+
+i {
+  padding: 20px;
+  color: rgba(26, 27, 27, 0.87);
+}
+
+i:hover {
+  color: #c06969;
+  cursor: pointer;
+}
+
+.darkmode--activated i {
+  color: #e2e2e2;
+}
+
+.darkmode--activated i:hover {
+  color: teal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: rgba(26, 27, 27, 0.87);
+}
 /*# sourceMappingURL=style.css.map */

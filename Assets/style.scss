@@ -133,3 +133,26 @@ input[type="submit"] {
     width: 50%;
     cursor: pointer;
 }
+
+i {
+  padding: 20px;
+  color: $black;
+}
+
+i:hover {
+    color: $red;
+    cursor: pointer;
+}
+
+.darkmode--activated i {
+    color: $background;
+}
+
+.darkmode--activated i:hover {
+    color: teal;
+}
+
+h3 {
+    font-family: $menu;
+    color: $black;
+}
