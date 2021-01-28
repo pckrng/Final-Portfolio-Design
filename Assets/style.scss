@@ -1,0 +1,125 @@
+// @import "./Assets/_include-media.scss"
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap');
+$black: rgba(26, 27, 27, 0.87);
+$red: #c06969;
+$background: #e2e2e2;
+$darkWhite: #aaaaaa;
+$menu: 'Montserrat', sans-serif;
+$body: 'Open Sans', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: $background;
+}
+p {
+    font-family: $body;
+}
+nav {
+    margin-left: 10px;
+    margin-top: 10px;
+a {
+    color: $black;
+    text-decoration: none;
+    list-style: none;
+    font-family: $menu;
+    text-transform: uppercase;
+}
+a:hover {
+    color: $red;
+}
+}
+
+.flyIn {
+    width: 50%;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: start;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20vh;
+h1 {
+    font-family: $menu;
+    font-size: 9vw;
+    text-transform: uppercase;
+    margin-bottom: -0.5rem;
+}
+p {
+    width: 80%;
+    font-family: $body;
+}
+}
+
+
+h2 {
+    font-family: $menu;
+    font-size: 2vw;
+    color: $black;
+}
+
+@media screen and (max-width: 600px){
+    h2{
+        font-size: 1rem;
+    }
+}
+
+h1 {
+    font-family: $menu;
+    font-size: 7vw;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $black;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+    position: relative;
+    left: 40px;
+    margin-bottom: 4rem;
+}
+
+.container {
+    position: relative;
+    top: 40px;
+    margin-left: 60px;
+    width: 80vw;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+    border-radius: 16px;
+    text-align: start;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+    width: 70vw;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+
+.darkmode--activated h1, .darkmode--activated h2, .darkmode--activated p{
+    color: white;
+}
+.darkmode--activated .card{
+    background-color: #0e0c0c;
+}
+
