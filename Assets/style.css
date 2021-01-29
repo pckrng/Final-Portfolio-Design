@@ -164,12 +164,15 @@ i:hover {
   color: #e2e2e2;
 }
 
-.darkmode--activated i:hover {
+.darkmode--activated li, .darkmode--activated a {
+  color: #8C8C8C;
+}
+
+.darkmode--activated i:hover, .darkmode--activated a:hover {
   color: teal;
 }
 
 .darkmode-toggle {
-  position: fixed;
   z-index: 1000;
 }
 
