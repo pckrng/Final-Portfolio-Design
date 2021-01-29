@@ -13,3 +13,13 @@
 
     const darkmode = new Darkmode(options);
     darkmode.showWidget();
+
+    gsap.from(".flyIn", {duration: 2, x: -300, opacity: 0, scale: 0.1, ease: "bounce.out"});
+    gsap.from("a", {duration: 3, opacity: 0});
+
+    new fullpage('#fullpage', {
+    autoScrolling: true,
+    navigationPosition: right,
+    navigation: true,
+    anchors: ['section1', 'section2']
+})
