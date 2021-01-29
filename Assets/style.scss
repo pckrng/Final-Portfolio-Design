@@ -1,6 +1,6 @@
 // @import "./Assets/_include-media.scss"
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap');
-$black: rgba(26, 27, 27, 0.87);
+$black: #2E2E2E;
 $red: #c06969;
 $background: #e2e2e2;
 $darkWhite: #aaaaaa;
@@ -49,10 +49,12 @@ h1 {
     font-size: 9vw;
     text-transform: uppercase;
     margin-bottom: -0.5rem;
+    color: $black;
 }
 p {
     width: 80%;
     font-family: $body;
+    color: $black;
 }
 }
 
