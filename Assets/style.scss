@@ -113,7 +113,7 @@ h1 {
     background-color: #f1f1f1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
 .column {
     width: 70vw;
     display: block;
@@ -168,7 +168,7 @@ i:hover {
 .darkmode--activated i {
     color: $background;
 }
-.darkmode--activated li, .darkmode--activated a {
+.darkmode--activated li, .darkmode--activated a, .darkmode--activated p, .darkmode--activated h2, .darkmode--activated h1 {
     color: #8C8C8C;
 }
 
@@ -196,4 +196,9 @@ h3 {
   margin-left: 2rem;
   z-index: 1001;
   top: 1rem;
+}
+
+.message {
+    height: 150px;
+    margin-bottom: 3rem;
 }
