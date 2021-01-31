@@ -210,18 +210,9 @@ h3 {
   margin-bottom: 3rem;
 }
 
-.hover_img li {
-  position: relative;
-}
-.hover_img li span {
-  position: absolute;
-  display: none;
-  z-index: 99;
-}
-.hover_img li:hover {
-  display: block;
-}
 
-.hover_img i { position:relative; }
+.hover_img i { position:relative;
+  border-radius: 16px;
+}
 .hover_img i span { position:absolute; display:none; z-index:99; }
 .hover_img i:hover span { display:block; }
