@@ -13,7 +13,7 @@ p {
 }
 
 a {
-  color: #2E2E2E;
+  color: #2e2e2e;
   text-decoration: none;
   list-style: none;
   font-family: "Montserrat", sans-serif;
@@ -43,19 +43,19 @@ ul {
   font-size: 9vw;
   text-transform: uppercase;
   margin-bottom: -0.5rem;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .flyIn p {
   width: 80%;
   font-family: "Open Sans", sans-serif;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2vw;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 @media screen and (max-width: 600px) {
@@ -69,7 +69,7 @@ h1 {
   font-size: 7vw;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .column {
@@ -118,7 +118,9 @@ h1 {
   }
 }
 
-.darkmode--activated h1, .darkmode--activated h2, .darkmode--activated p {
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated p {
   color: white;
 }
 
@@ -136,7 +138,7 @@ input[type="submit"] {
   width: 50%;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-  color: #2E2E2E;
+  color: #2e2e2e;
   background-color: #aaaaaa;
   outline: none;
   border: none;
@@ -147,7 +149,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #2E2E2E;
+  background-color: #2e2e2e;
   color: #e2e2e2;
 }
 
@@ -157,7 +159,7 @@ input[type="submit"]:hover {
 
 i {
   padding: 20px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 i:hover {
@@ -169,11 +171,16 @@ i:hover {
   color: #e2e2e2;
 }
 
-.darkmode--activated li, .darkmode--activated a, .darkmode--activated p, .darkmode--activated h2, .darkmode--activated h1 {
-  color: #8C8C8C;
+.darkmode--activated li,
+.darkmode--activated a,
+.darkmode--activated p,
+.darkmode--activated h2,
+.darkmode--activated h1 {
+  color: #8c8c8c;
 }
 
-.darkmode--activated i:hover, .darkmode--activated a:hover {
+.darkmode--activated i:hover,
+.darkmode--activated a:hover {
   color: teal;
 }
 
@@ -202,5 +209,33 @@ h3 {
 .message {
   height: 150px;
   margin-bottom: 3rem;
+}
+
+.hover_img li {
+  position: relative;
+}
+
+.hover_img li span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+
+.hover_img li:hover {
+  display: block;
+}
+
+.hover_img i {
+  position: relative;
+}
+
+.hover_img i span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+
+.hover_img i:hover span {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
