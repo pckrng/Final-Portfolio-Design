@@ -137,7 +137,7 @@ input {
 }
 
 input[type="submit"] {
-  width: 50%;
+  width: 25vw;
   cursor: pointer;
   font-family: $menu;
   color: $black;
@@ -147,14 +147,20 @@ input[type="submit"] {
   border-radius: 8px;
   text-transform: uppercase;
   padding: 16px;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 input[type="submit"]:hover {
-  background-color: $black;
-  color: $background;
+  background-color: #b4b4b4;
+  color: #c06969;
 }
 .darkmode--activated input[type="submit"] {
-  background-color: $background;
+  background-color: $black;
+  color: #c06969;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.darkmode--activated input:hover[type="submit"] {
+  background-color: #222222;
+  color: #c06969;
 }
 
 i {
