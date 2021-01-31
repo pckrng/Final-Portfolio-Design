@@ -1,7 +1,7 @@
 // @import "./Assets/_include-media.scss"
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap");
 $black: #2e2e2e;
-$red: #c06969;
+$red: teal;
 $background: #e2e2e2;
 $darkWhite: #aaaaaa;
 $menu: "Montserrat", sans-serif;
@@ -140,8 +140,8 @@ input[type="submit"] {
   width: 25vw;
   cursor: pointer;
   font-family: $menu;
-  color: $black;
-  background-color: $darkWhite;
+  color: $background;
+  background-color: teal;
   outline: none;
   border: none;
   border-radius: 8px;
@@ -150,17 +150,17 @@ input[type="submit"] {
   font-size: 2vw;
 }
 input[type="submit"]:hover {
-  background-color: #b4b4b4;
-  color: #c06969;
+  background-color: rgb(1, 70, 70);
+  color: $background;
 }
 .darkmode--activated input[type="submit"] {
   background-color: $black;
-  color: #c06969;
+  color: teal;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .darkmode--activated input:hover[type="submit"] {
   background-color: #222222;
-  color: #c06969;
+  color: #8b3131;
 }
 
 i {

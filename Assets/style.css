@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #c06969;
+  color: teal;
 }
 
 ul {
@@ -138,8 +138,8 @@ input[type="submit"] {
   width: 25vw;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-  color: #2e2e2e;
-  background-color: #aaaaaa;
+  color: #e2e2e2;
+  background-color: teal;
   outline: none;
   border: none;
   border-radius: 8px;
@@ -149,20 +149,20 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #b4b4b4;
-  color: #c06969;
+  background-color: #014646;
+  color: #e2e2e2;
 }
 
 .darkmode--activated input[type="submit"] {
   background-color: #2e2e2e;
-  color: #c06969;
+  color: teal;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .darkmode--activated input:hover[type="submit"] {
   background-color: #222222;
-  color: #c06969;
+  color: #8b3131;
 }
 
 i {
@@ -171,7 +171,7 @@ i {
 }
 
 i:hover {
-  color: #c06969;
+  color: teal;
   cursor: pointer;
 }
 
@@ -198,7 +198,7 @@ i:hover {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #c06969;
+  color: teal;
 }
 
 .s1 {
