@@ -94,7 +94,7 @@ h1 {
 
 .container {
     position: relative;
-    margin-top: 85px;
+    margin-top: 15px;
     margin-left: 20px;
     width: 90vw;
 }
@@ -118,6 +118,9 @@ h1 {
     width: 70vw;
     display: block;
     margin-bottom: 20px;
+}
+.container {
+    margin-top: 85px;
 }
 }
 
@@ -182,8 +185,9 @@ i:hover {
 
 h3 {
     font-family: $menu;
-    color: $black;
+    color: $red;
 }
+
 
 .s1 {
     background-size: cover;
