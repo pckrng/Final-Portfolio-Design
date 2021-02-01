@@ -110,7 +110,7 @@ h1 {
   background-color: #f1f1f1;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 70vw;
     display: block;
@@ -221,4 +221,6 @@ h3 {
   border-radius: 16px;
 }
 .hover_img i span { position:absolute; display:none; z-index:99; }
-.hover_img i:hover span { display:block; }
+.hover_img i:hover span { display:block;
+left: 10vw;
+}
